@@ -2,3 +2,11 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+<div *ngFor="let student of students">
+  <h5 class="card-title">{{ student.name }}</h5>
+                    <h6 class="card-subtitle">{{ student.enrollmentnumber }}</h6>
+                    <p class="card-text">{{ student.college }}</p>
+                    <p class="card-text">{{ student.university }}</p>
+                    <a class="btn btn-primary" href="#" >Go somewhere</a>
+ 
+</div>
